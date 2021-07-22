@@ -21,21 +21,39 @@ public class Main {
 
 	public void run() {
 		List<String> stringsList = Arrays.asList( "Blue", "Green", "Red", "Purple" );
+		printHeader("Question 1a");
 		question1a( stringsList );
+		printHeader("Question 1b");
 		question1b( stringsList );
+		printHeader("Question 1c");
 		question1c( stringsList );
+		printHeader("Question 1d");
 		question1d( stringsList );
+		printHeader("Question 2");
+		question2();
+		printHeader("Question 3a");
 		// question3a();
+		printHeader("Question 3b");
 		// question3b();
+		printHeader("Question 3c");
 		// question3c();
+		printHeader("Question 5");
 		// question5("a","b","c","d");
+		printHeader("Question 6");
 		print( question6( Arrays.asList( Arrays.asList( "Col 1", "Col 2", "Col 3", "Col 4" ),
 				Arrays.asList( "Row 1 Col 1", "Row 1 Col 2", "Row 1 Col 3", "Row 1 Col 4" ) ) ) );
 
 	}
 
+	public void printHeader(String s) {
+		print(s + ":", "");
+	}
+
 	public void print( String s ) {
-		System.out.println( s );
+		print(s, "- ");
+	}
+	public void print( String s, String prefix ) {
+		System.out.println( prefix + s );
 	}
 
 	public void question1a( List<String> list ) {
@@ -55,7 +73,10 @@ public class Main {
 	}
 
 	public void question2() {
-		// SinglePringle.getInstance();
+		// SinglePringle p1 = SinglePringle.getInstance();
+		// SinglePringle p2 = SinglePringle.getInstance();
+
+		print("Single Pringle Instances: " + SinglePringle.Instances);
 	}
 
 	public void question3a() {
