@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'com.mindera.fd.interview'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'junit:junit:4.12'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.14.1'
+    compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.14.1'
+}
