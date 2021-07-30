@@ -8,4 +8,7 @@ public class SinglePringle {
 		SinglePringle.Instances++;
 	}
 
+	public int getCount() {
+		return count;
+	}
 }
