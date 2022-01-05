@@ -38,7 +38,7 @@ public class Main {
 		printHeader("Question 3c");
 		// question3c();
 		printHeader("Question 5");
-		question5("a","b","c","d");
+		// question5("a","b","c","d");
 		printHeader("Question 6");
 		print( question6( Arrays.asList( Arrays.asList( "Col 1", "Col 2", "Col 3", "Col 4" ),
 				Arrays.asList( "Row 1 Col 1", "Row 1, Col 2", "Row 1 Col 3", "Row 1 Col 4" ) ) ), "" );
@@ -74,8 +74,8 @@ public class Main {
 	}
 
 	public void question2() {
-		SinglePringle p1 = SinglePringle.getInstance();
-		SinglePringle p2 = SinglePringle.getInstance();
+		// SinglePringle p1 = SinglePringle.getInstance();
+		// SinglePringle p2 = SinglePringle.getInstance();
 
 		print("Single Pringle Instances: " + SinglePringle.Instances);
 
