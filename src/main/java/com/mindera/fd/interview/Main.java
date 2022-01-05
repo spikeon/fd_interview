@@ -56,21 +56,22 @@ public class Main {
 
 	public void question1a( List<String> list ) {
 		// Print each item in the list
-		for(String str : list){
-			print(str);
-		}
+
 	}
 
 	public void question1b( List<String> list ) {
 		// Print each item in the list
+
 	}
 
 	public void question1c( List<String> list ) {
 		// Print each item in the list
+
 	}
 
 	public void question1d( List<String> list ) {
 		// Print each item in the list
+
 	}
 
 	public void question2() {
