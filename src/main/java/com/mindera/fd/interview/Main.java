@@ -74,8 +74,8 @@ public class Main {
 	}
 
 	public void question2() {
-		// SinglePringle p1 = SinglePringle.getInstance();
-		// SinglePringle p2 = SinglePringle.getInstance();
+		SinglePringle p1;// = SinglePringle.getInstance();
+		SinglePringle p2;// = SinglePringle.getInstance();
 
 		print("Single Pringle Instances: " + SinglePringle.Instances);
 
